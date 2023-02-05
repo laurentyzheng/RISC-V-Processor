@@ -1,0 +1,11 @@
+alu_ctrl.v
+branch_comp.v
+pipeline_reg.v
+execute_control.v
+forward_ctrl.v
+alu.v
+imm_gen.v
+pd.v
+register_file.v
+imemory.v
+dmemory.v
