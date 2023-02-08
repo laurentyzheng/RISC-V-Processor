@@ -1,7 +1,5 @@
-# RISC-V Benchmarks for ECE 320
+# RISC-V Benchmarks
 
-This repository contains a suite of simple benchmarks for our course.  
-These are separated into two directories.  
 
 * `simple-programs`: Contains some simple benchmark programs
 * `individual-instructions`: Contains RISC-V tests for each instruction
@@ -25,10 +23,4 @@ $ make
 ```
 The `--with-arch=rv32i` informs the build scripts to include the base RISC-V ISA, and `--with-abi=ilp32` refers to the software version of the floating point. 
 The binaries will be placed in `/opt/riscv` (on a successful build).
-
-# The compilation steps to build our binaries
-
-You should take a look at the [`Makefile`](https://git.uwaterloo.ca/ece320/rv32-benchmarks/blob/master/Makefile) in the repository. 
-It should provide you with insights on how to use the compiler to generate the binaries for your processor.
-Note that there are some intermediate files such as `*.elf` and `*.bin`.
 
